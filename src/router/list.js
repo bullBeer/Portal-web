@@ -8,7 +8,7 @@ export default [
   {
     path: '/',
     redirect: {
-      path: '/index/product',
+      path: '/product',
       // 初始化路由参数
       // query: {
       //   page: 1
@@ -16,13 +16,7 @@ export default [
     }
   },
   {
-    path: '/index',
-    redirect: {
-      path: '/index/product',
-    }
-  },
-  {
-    path: '/index',
+    path: '/',
     name: 'index',
     component: index,
     children,
