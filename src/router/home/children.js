@@ -22,6 +22,7 @@ export default [
     path: 'news',
     name: 'news',
     meta: {
+      keepAlive: true,
       title: '资讯',
     },
     component: news
