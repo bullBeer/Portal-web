@@ -7,7 +7,7 @@
 
 <script>
 export default {
-  name: 'news',
+  name: 'news', // 与路由名称保持一致（用来激活keep-alive）
   data() {
     return {
       text: 'keep-alive测试'
